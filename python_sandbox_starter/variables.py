@@ -13,3 +13,6 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+x, y, name, is_cool = (1, 2.3, 'John', True)
+y = int(y)
+print(type(y))
